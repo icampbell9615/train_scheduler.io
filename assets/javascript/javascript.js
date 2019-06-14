@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-    // initialize firebase
     var firebaseConfig = {
         apiKey: "AIzaSyDO0H87iPV-gb6wvW2YCCt9PAc45MfqYeI",
         authDomain: "train-scheduler-c034a.firebaseapp.com",
