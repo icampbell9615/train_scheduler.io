@@ -54,12 +54,12 @@ $(document).ready(function() {
 
     
         database.ref().on("child_added", function(childSnapshot){
-            console.log(childSnapshot)
+            console.log(childSnapshot.val())
             /*Create variables to store the data inside of*/
-            var locoName = childSnapshot.val().name;
-            var locoDestination = childSnapshot.val().destination;
-            var locoFrequency = childSnapshot.val().frequency;
-            var locoFirstTrain = childSnapshot.val().firstTrain;
+            var locoName = childSnapshot.val().train;
+            var locoDestination = childSnapshot.val().trainGoing;
+            var locoFrequency = childSnapshot.val().everyXMin;
+            var locoFirstTrain = childSnapshot.val().trainComing;
         
                 /*Create variables for time storage*/
                 var firstTimeTransfered = moment(locoFirstTrain, "hh:mm").subtract(1, "years");
