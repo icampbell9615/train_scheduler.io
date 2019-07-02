@@ -1,0 +1,46 @@
+/* <--css--> */
+.jumbotron{
+	background-color: grey;
+	background-size:cover;
+	margin-top:10px;
+	height:215px;
+	font-size: 70px;
+}
+.panel-body{
+	background-color: blue;
+}
+
+#t1{
+	background-color: green;
+	color: black;
+	text-align: center;
+	font-family:serif;
+}
+strong{
+	font-size:40px;
+}
+#main-form{
+	background-color: white;
+}
+
+#t2{
+	background-color: lightgreen;
+	color: black;
+	text-align:center;
+	font-family: serif;
+}
+
+h2{
+	text-align:center;
+	color:white;
+	font-family:serif;
+	font-size:75px;
+
+}
+body{
+	background-color:black;
+}
+
+.panel-body{
+	background-color:beige;
+}
