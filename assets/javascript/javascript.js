@@ -85,12 +85,14 @@ $(document).ready(function() {
             /*Add the train data into table*/
             $("tbody").append("<tr><td>" + locoName + "</td><td>" + locoDestination + "</td><td>" + locoFrequency + "</td><td>" + nextTime + "</td><td>" + minutesTilTrain + "</td></tr>");
         
+
+            
         /*Childsnapshot and prevchildkey function*/
         });
         
         /*close function*/
-        
-
+    
+   
 
 
 });
