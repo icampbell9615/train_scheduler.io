@@ -1,4 +1,4 @@
-Add trains to the schedule and their times to keep track of them.
+<h1>Add trains to the schedule and their times to keep track of them.
 <br>
 Uses javascript and moment.js
 
